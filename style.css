@@ -1,0 +1,219 @@
+*
+{
+    margin: 0;
+    padding: 0;
+     
+}
+ 
+::-webkit-scrollbar
+{
+    display: none;
+   
+}
+::-webkit-scrollbar-thumb
+{
+    color: red;
+    background: rgb(221, 92, 17);
+    border-radius: 25px;
+     
+}
+::-webkit-scrollbar-thumb:hover
+{
+    background:  rgb(226, 12, 112);
+}
+iframe{
+  background:  #1F1F23;
+}
+   
+ 
+ 
+header
+{
+    opacity: 90%;
+}
+.small-songs
+{
+    width: 100%;
+}
+@media (min-width: 1024px)
+{
+body{
+    background:  rgba(255, 255, 255, 0.795);
+    
+}
+ 
+h1{
+    font-size: 25px;
+}
+.smallsongs
+{
+    width: 100%;
+    height: 400px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-bottom: 4px solid rgba(114, 112, 112, 0.685); 
+    padding: 10px 10px;
+   
+}
+.languages
+{
+    width: 100%;
+    height: 400px;
+    
+}
+ 
+ 
+header
+{
+    position: fixed;
+    margin-top: 50px;
+    background: linear-gradient(57deg,  #ee0979, #ff6a00);
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding: 5px 15px;
+     
+    color: white;
+   
+}
+.header
+{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center; 
+    
+     
+   
+}
+.categories
+{
+    margin-top: 80px;
+    display: flex;
+    margin-top: 100px;
+    
+}
+.categories h2
+{
+    font-size: 30px;
+}
+.categories img
+{
+    margin: 70px;
+    
+}
+ 
+}
+@media(max-width:500px)
+{
+    .small-songs
+    {
+        width: 100%;
+    }
+}
+ 
+
+ 
+ 
+ 
+ 
+ @media (max-width:384px)
+ {
+     .languages
+     {
+        width: 100%;
+        height: 200px;
+        margin-top: 50px;
+     }
+     
+     .small-songs
+     {
+        width: 100%;
+         
+     }
+     iframe
+     {
+        height: 450px;
+        width: 100%;
+        
+     }
+     header img{
+       width: 50px;
+     }
+     header{
+       position: fixed;
+       text-align: center;
+       justify-content: center;
+       align-items: center;
+     }
+     header h3{
+       font-family: Fira Sans;
+       color: red;
+     }
+ }
+
+ @media(max-width:600px)
+ {
+    iframe
+    {
+        width: 100%;
+        height: 360px;
+    }
+    .languages
+{
+    width: 100%;
+    height: 250px;
+    margin-top: 30px;
+    
+}
+header
+{
+    position: fixed;
+    margin-top: 50px;
+    background: linear-gradient(57deg,  #ee0979, #ff6a00);
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    padding: 5px 15px;
+     
+    color: white;
+   
+}
+.header
+{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center; 
+    
+     
+   
+}
+.smallsongs
+{
+    width: 100%;
+    height: 440px;
+    margin-top: 5px;
+    margin-left: 10px;
+    border-bottom: 4px solid rgba(114, 112, 112, 0.685); 
+    padding: 10px 10px;
+    
+   
+}
+ 
+
+ }
+
+ @media( max-width:284px)
+ {
+    .header
+    {
+        opacity: 90%;
+        margin-top: 35px;
+    }
+    
+ }
+ 
+ 
+ 
+ 
